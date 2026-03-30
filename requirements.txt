@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+tensorflow
+feature-engine
+statsmodels
+ydata-profiling
+matplotlib
+seaborn
