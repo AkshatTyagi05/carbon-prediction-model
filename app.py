@@ -276,7 +276,7 @@ if st.button("Generate AQI Forecast", key="aqi_btn"):
             ])
 
             model.compile(optimizer='adam', loss='mse')
-            model.fit(np.array(X), np.array(y), epochs=60, verbose=0)
+            model.fit(np.array(X), np.array(y), epochs=35, verbose=0)
 
             last_w = scaled[-window:].reshape(1,window,4)
             preds=[]
